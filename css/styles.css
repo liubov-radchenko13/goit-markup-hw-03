@@ -13,6 +13,7 @@ button{
     cursor: pointer;
 }
 .header{
+    border-bottom: 1px solid #e7e9fc;
     font-family:"Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -21,10 +22,21 @@ button{
     text-transform: uppercase;
     color: #4d5ae5;
 }
+.header-container{
+    display: flex;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+    
+}
 .span{
     color: #2e2f42;
 }
 .navigation{
+    display: flex;
+    align-items: center;
     font-family: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -32,6 +44,7 @@ button{
     color: #404bbf;
 }
 .logo{
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px; 
@@ -39,8 +52,11 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+
 }
 .logo-part{
+    display: flex;
+    gap: 40px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px; 
@@ -48,6 +64,9 @@ color: #4d5ae5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+}
+.img{
+    display: block;
 }
 .current{
     color: #404bbf;
@@ -112,14 +131,19 @@ color: #434455;
     letter-spacing: 0.02em;
     color:#2e2f42;
 }
+.address-list{
+    display: flex;
+    gap: 40px;
+}
 .address-link:hover,
-.address-list:focus{
+.address-link:focus{
     color: #404bbf;
 }
 .uls{
     background-color: #ffffff;
 }
 .ule{
+    padding: 24px 0 24px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -131,19 +155,38 @@ color: #434455;
 .ule:focus{
     color: #404bbf;
 }
+.li{
+    display: flex;
+    gap: 24px;
+    width: calc((100%*72)/4);
+}
+.lis{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
 .section{
  background-color: #2e2f42;
+ padding: 188px 0 188px;
+}
+.sectionen{
+    background-color: #2e2f42;
+    padding: 120px 0 120px;
 }
 .sections{
     background-color: #f4f4fd;
+    padding: 120px 0 120px;
 }
 .effective{
+    max-width: 496px;
     font-size: 65px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
 }
 .hone{
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -151,6 +194,12 @@ color: #434455;
     color: #2e2f42;
 }
 .service{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
     background-color: #4d5ae5;
     font-weight: 500;
     line-height: 1.5;
@@ -159,6 +208,7 @@ color: #434455;
     cursor: pointer;
 }
 .team{
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -171,6 +221,7 @@ color: #434455;
 }
 .sektion{
     color: #ffffff;
+    padding-top: 120px 0 120px 0;
 }
 .footer{
     background-color:#f4f4fd;
