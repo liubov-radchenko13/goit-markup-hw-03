@@ -34,15 +34,19 @@ button{
 .logo{
     font-family: "Raleway", sans-serif;
 font-weight: 700;
-font-size: 18px;
-line-height: 21px; 
+font-size: 18px; 
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-margin-right: 76px;
 }
 .logo-part{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px; 
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #2e2f42;
 }
 .current{
@@ -59,11 +63,17 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 .nav-link{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px; 
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -104,6 +114,21 @@ color: #434455;
 }
 .address-link:hover,
 .address-list:focus{
+    color: #404bbf;
+}
+.uls{
+    background-color: #ffffff;
+}
+.ule{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.ule:hover,
+.ule:focus{
     color: #404bbf;
 }
 .section{
