@@ -84,6 +84,7 @@ color: #4d5ae5;
     margin-bottom: 16px;
 }
 .logo-part{
+    gap: 40px;
     color: #2e2f42;
 }
 .img{
@@ -191,6 +192,7 @@ color: #434455;
     width: calc((100% - 72px) / 4);
 }
 .lis{
+    width: calc((100% - 48px) / 3);
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
