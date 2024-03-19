@@ -24,8 +24,10 @@ button{
 }
 .header-container{
     display: flex;
+    gap: 40px;
 }
 .container{
+    width: calc((100%-72px)/4);
     display: flex;
     gap: 40px;
     width: 1158px;
@@ -238,6 +240,7 @@ color: #434455;
 .sektion{
     color: #ffffff;
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 .footer{
     background-color:#f4f4fd;
