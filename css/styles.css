@@ -24,12 +24,10 @@ button{
 }
 .header-container{
     display: flex;
-    gap: 40px;
 }
 .container{
     width: calc((100%-72px)/4);
     display: flex;
-    gap: 40px;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
@@ -88,6 +86,7 @@ color: #4d5ae5;
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0 24px;
+    width: calc((100%-72px)/4);
 }
 .item{
     font-weight: 500;
@@ -151,6 +150,7 @@ color: #434455;
     background-color: #ffffff;
 }
 .ule{
+    gap: 40px;
     padding: 24px 0 24px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -166,7 +166,6 @@ color: #434455;
 .lin{
     display: flex;
     gap: 24px;
-    width: calc((100%-72px)/4);
 }
 .lis{
     display: flex;
@@ -248,6 +247,7 @@ color: #434455;
 }
 .logo-parts{
     color: #f4f4fd;
+    display: inline-block;
 }
 .paragraph{
     max-width: 264px;
