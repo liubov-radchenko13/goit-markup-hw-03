@@ -44,6 +44,8 @@ button{
     color: #404bbf;
 }
 .logo{
+    display: flex;
+    gap: 40px;
     margin-right: 76px;
     font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -55,14 +57,6 @@ color: #4d5ae5;
 
 }
 .logo-part{
-    display: flex;
-    gap: 40px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px; 
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #2e2f42;
 }
 .img{
@@ -81,6 +75,7 @@ color: #4d5ae5;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0 24px;
 }
 .item{
     font-weight: 500;
@@ -143,7 +138,7 @@ color: #434455;
     background-color: #ffffff;
 }
 .ule{
-    padding: 24px 0 24px;
+  
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
