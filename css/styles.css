@@ -36,6 +36,12 @@ button{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
   }
 .container{
     width: calc((100%-72px)/4);
@@ -112,13 +118,6 @@ color: #4d5ae5;
 .nav-list:hover,
 .nav-link:focus{
     color: #404bbf;
-}
-.benefits{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 .para{
     text-align: center;
