@@ -86,6 +86,7 @@ color: #4d5ae5;
 .logo-part{
     gap: 40px;
     color: #2e2f42;
+    display: inline-block;
 }
 .img{
     display: block;
@@ -268,7 +269,7 @@ color: #434455;
     color: #ffffff;
     padding-top: 120px;
     padding-bottom: 120px;
-     width: calc((100% - 48px) / 3);
+     border: 1px solid #e7e9fc;
 }
 .footer{
     background-color:#f4f4fd;
